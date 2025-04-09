@@ -5,6 +5,7 @@ from pydantic import BaseModel
 import numpy as np
 import logging
 
+#test de modif
 # Charger le modèle entraîné
 with open('/Users/lazaregrail/Documents/QuickText/Jupiter NoteBook/Gaussian Process_model.sav', "rb") as f:
     model = pickle.load(f)
