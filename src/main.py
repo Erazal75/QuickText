@@ -6,7 +6,7 @@ import numpy as np
 import logging
 
 # Charger le modèle entraîné
-with open('/app/JupiterNoteBook/Gaussian Process_model.sav', "rb") as f:
+with open('/app/JupiterNoteBook/gaussian_process_model.sav', "rb") as f:
     model = pickle.load(f)
 
 #/Users/lazaregrail/Documents/QuickText/JupiterNoteBook/
