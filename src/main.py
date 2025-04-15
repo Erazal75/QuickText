@@ -8,8 +8,6 @@ from contextlib import asynccontextmanager
 import asyncio
 import os
 
-print("Exists:", os.path.exists('/app/JupiterNoteBook/Gaussian Process_model.sav'))
-
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
